@@ -3,6 +3,7 @@ const bcrypt = require('bcrypt');
 const userRoutes = express.Router();
 const nodemailer = require('nodemailer');
 
+// nodemailer
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
@@ -19,10 +20,8 @@ let Wedding = require('../models/Wedding');
 
 // Defined store route
 userRoutes.route('/addWithWedding').post(function (req, res) {
-    console.log(req.body);
     User.findOne({email:req.body.emailPartner}, function (err, user){
         if (user){
-            console.log("what");
             res.status(400).send("user already have a partner");
 
         } else {
@@ -53,7 +52,7 @@ userRoutes.route('/addWithWedding').post(function (req, res) {
                                             console.log('Email sent: ' + info.response);
                                         }
                                     });
-                                    res.status(200).json(user);
+                                    res.status(200).json({"user":user,"wedding":wedding});
                                 })
                                 .catch(err=>{
                                     res.status(400).send("unable to save wedding to database");
@@ -85,10 +84,18 @@ userRoutes.route('/login').post(function (req, res) {
             bcrypt.compare(req.body.password, user.password, function(err, result) {
                 console.log(result);
                 if(result) {
-                    res.status(200).json(user);
+                    Wedding.findOne({$or: [
+                            {partner1: user},
+                            {partner2: user}
+                        ]}, function (err, wedding){
+                        if (!wedding){
+                            res.status(400).send("wedding not found");
+                        }  else {
+                            res.status(200).json({"user":user,"wedding":wedding});
+                        }
+                    });
                 } else {
                     res.status(400).json({message: 'Passwords don\'t match'});
-
                 }
             });
         }

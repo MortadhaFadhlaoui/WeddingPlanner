@@ -1,4 +1,4 @@
-// server.js
+// index.js
 
 const express = require('express'),
     path = require('path'),
@@ -6,7 +6,7 @@ const express = require('express'),
     cors = require('cors'),
     mongoose = require('mongoose'),
     config = require('./config/DB');
-var https = require('https');
+const http = require('http');
 var fs = require('fs');
 const taskRoutes = require('./routes/task.route');
 const guestRoutes = require('./routes/guest.route');

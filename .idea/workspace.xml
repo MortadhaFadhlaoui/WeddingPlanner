@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5492e9b9-cc52-4eba-9f94-caeec67e7986" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Task.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Token.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/TokenInvit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/guest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inv.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/guest.route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/task.route.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/DB.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/DB.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Wedding.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Wedding.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/user.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/user.route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,12 +32,13 @@
     <session id="1598708052">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="18" />
+          <entry key="project.closed" value="31" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.27" value="2" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.30" value="1" />
@@ -31,34 +46,60 @@
           <entry key="project.open.time.32" value="2" />
           <entry key="project.open.time.33" value="2" />
           <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.35" value="2" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.4" value="4" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.open.time.52" value="1" />
+          <entry key="project.open.time.67" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.93" value="1" />
+          <entry key="project.opened" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="Procfile" value="6" />
           <entry key="gitignore" value="13" />
-          <entry key="js" value="1694" />
+          <entry key="js" value="4671" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="1694" />
-          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="JavaScript" value="4671" />
+          <entry key="PLAIN_TEXT" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gitignore" value="1" />
-          <entry key="js" value="10" />
+          <entry key="Procfile" value="1" />
+          <entry key="cert" value="1" />
+          <entry key="env" value="1" />
+          <entry key="gitignore" value="2" />
+          <entry key="html" value="1" />
+          <entry key="jpg" value="1" />
+          <entry key="js" value="46" />
+          <entry key="json" value="1" />
+          <entry key="key" value="1" />
           <entry key="md" value="1" />
+          <entry key="rnd" value="1" />
+          <entry key="ts" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="10" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="HTML" value="1" />
+          <entry key="Image" value="1" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="46" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="TypeScript" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TypeScriptServerServiceImpl" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -66,28 +107,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/DB.js">
+        <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+            <state relative-caret-position="116">
+              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server.js">
+        <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            <state>
+              <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="11" selection-start-column="11" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/routes/user.route.js">
+        <entry file="file://$PROJECT_DIR$/config/DB.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="91" column="39" selection-start-line="91" selection-start-column="39" selection-end-line="91" selection-end-column="39" />
+            <state relative-caret-position="92">
+              <caret line="4" column="46" lean-forward="true" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -97,24 +156,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/User.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/Wedding.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="12" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -130,12 +171,40 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>emailPartner</find>
-      <find>get</find>
+      <find>uploader</find>
+      <find>patientService</find>
+      <find>URL</find>
+      <find>Wedding.findOne</find>
+      <find>muli</find>
+      <find>findBy</find>
+      <find>user.save</find>
+      <find>upload</find>
+      <find>fieldname</find>
+      <find>filename</find>
+      <find>mailOptions</find>
       <find>transporter</find>
-      <find>mail</find>
-      <find>console</find>
+      <find>unable to save user to database</find>
+      <find>next</find>
+      <find>req.body.token</find>
+      <find>req.query.token</find>
+      <find>/login</find>
+      <find>updateP</find>
+      <find>not found</find>
+      <find>confirm</find>
+      <find>findpa</find>
+      <find>user =</find>
+      <find>findById</find>
+      <find>token</find>
+      <find>Token</find>
+      <find>sendToken</find>
+      <find>user</find>
+      <find>user/</find>
+      <find>updateWedding</find>
+      <find>ensureIndex</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -143,13 +212,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/DB.js" />
-        <option value="$PROJECT_DIR$/models/User.js" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$USER_HOME$/WebstormProjects/contact-webmaster/testApp/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/models/User.js" />
+        <option value="$PROJECT_DIR$/models/Token.js" />
+        <option value="$PROJECT_DIR$/routes/uploadimage.route.js" />
         <option value="$PROJECT_DIR$/models/Wedding.js" />
+        <option value="$PROJECT_DIR$/models/Task.js" />
+        <option value="$PROJECT_DIR$/routes/task.route.js" />
+        <option value="$PROJECT_DIR$/models/guest.js" />
+        <option value="$PROJECT_DIR$/models/TokenInvit.js" />
+        <option value="$PROJECT_DIR$/routes/guest.route.js" />
         <option value="$PROJECT_DIR$/routes/user.route.js" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/config/DB.js" />
       </list>
     </option>
   </component>
@@ -159,15 +237,20 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/node_modules/abbrev/package.json" />
       <path value="$PROJECT_DIR$/node_modules/accepts/package.json" />
       <path value="$PROJECT_DIR$/node_modules/addressparser/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/agent-base/package.json" />
       <path value="$PROJECT_DIR$/node_modules/ansi-align/package.json" />
       <path value="$PROJECT_DIR$/node_modules/ansi-regex/package.json" />
       <path value="$PROJECT_DIR$/node_modules/ansi-styles/package.json" />
       <path value="$PROJECT_DIR$/node_modules/anymatch/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/append-field/package.json" />
       <path value="$PROJECT_DIR$/node_modules/arr-diff/package.json" />
       <path value="$PROJECT_DIR$/node_modules/arr-flatten/package.json" />
       <path value="$PROJECT_DIR$/node_modules/arr-union/package.json" />
@@ -179,6 +262,9 @@
       <path value="$PROJECT_DIR$/node_modules/atob/package.json" />
       <path value="$PROJECT_DIR$/node_modules/aws-sdk-apis/package.json" />
       <path value="$PROJECT_DIR$/node_modules/aws-sdk/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/axios/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/axios/node_modules/follow-redirects/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/axios/package.json" />
       <path value="$PROJECT_DIR$/node_modules/balanced-match/package.json" />
       <path value="$PROJECT_DIR$/node_modules/base/node_modules/define-property/package.json" />
       <path value="$PROJECT_DIR$/node_modules/base/node_modules/is-accessor-descriptor/package.json" />
@@ -267,10 +353,16 @@
       <path value="$PROJECT_DIR$/node_modules/braces/package.json" />
       <path value="$PROJECT_DIR$/node_modules/bson/browser_build/package.json" />
       <path value="$PROJECT_DIR$/node_modules/bson/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/buffer-equal-constant-time/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/buffer-from/package.json" />
       <path value="$PROJECT_DIR$/node_modules/buildmail/node_modules/addressparser/package.json" />
       <path value="$PROJECT_DIR$/node_modules/buildmail/node_modules/iconv-lite/package.json" />
       <path value="$PROJECT_DIR$/node_modules/buildmail/node_modules/libmime/package.json" />
       <path value="$PROJECT_DIR$/node_modules/buildmail/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/busboy/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/busboy/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/busboy/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/busboy/package.json" />
       <path value="$PROJECT_DIR$/node_modules/bytes/package.json" />
       <path value="$PROJECT_DIR$/node_modules/cache-base/package.json" />
       <path value="$PROJECT_DIR$/node_modules/camelcase/package.json" />
@@ -286,6 +378,7 @@
       <path value="$PROJECT_DIR$/node_modules/color-name/package.json" />
       <path value="$PROJECT_DIR$/node_modules/component-emitter/package.json" />
       <path value="$PROJECT_DIR$/node_modules/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/concat-stream/package.json" />
       <path value="$PROJECT_DIR$/node_modules/configstore/package.json" />
       <path value="$PROJECT_DIR$/node_modules/content-disposition/package.json" />
       <path value="$PROJECT_DIR$/node_modules/content-type/package.json" />
@@ -306,14 +399,21 @@
       <path value="$PROJECT_DIR$/node_modules/define-property/package.json" />
       <path value="$PROJECT_DIR$/node_modules/depd/package.json" />
       <path value="$PROJECT_DIR$/node_modules/destroy/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/dicer/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/dicer/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/dicer/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/dicer/package.json" />
       <path value="$PROJECT_DIR$/node_modules/directmail/package.json" />
       <path value="$PROJECT_DIR$/node_modules/dkim-signer/package.json" />
       <path value="$PROJECT_DIR$/node_modules/dot-prop/package.json" />
       <path value="$PROJECT_DIR$/node_modules/duplexer/package.json" />
       <path value="$PROJECT_DIR$/node_modules/duplexer3/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/package.json" />
       <path value="$PROJECT_DIR$/node_modules/ee-first/package.json" />
       <path value="$PROJECT_DIR$/node_modules/encodeurl/package.json" />
       <path value="$PROJECT_DIR$/node_modules/encoding/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/es6-promise/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/es6-promisify/package.json" />
       <path value="$PROJECT_DIR$/node_modules/escape-html/package.json" />
       <path value="$PROJECT_DIR$/node_modules/escape-string-regexp/package.json" />
       <path value="$PROJECT_DIR$/node_modules/etag/package.json" />
@@ -333,6 +433,7 @@
       <path value="$PROJECT_DIR$/node_modules/express/package.json" />
       <path value="$PROJECT_DIR$/node_modules/extend-shallow/node_modules/is-extendable/package.json" />
       <path value="$PROJECT_DIR$/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/extend/package.json" />
       <path value="$PROJECT_DIR$/node_modules/extglob/node_modules/define-property/package.json" />
       <path value="$PROJECT_DIR$/node_modules/extglob/node_modules/extend-shallow/package.json" />
       <path value="$PROJECT_DIR$/node_modules/extglob/node_modules/is-accessor-descriptor/package.json" />
@@ -343,6 +444,7 @@
       <path value="$PROJECT_DIR$/node_modules/fill-range/package.json" />
       <path value="$PROJECT_DIR$/node_modules/finalhandler/node_modules/statuses/package.json" />
       <path value="$PROJECT_DIR$/node_modules/finalhandler/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/find/package.json" />
       <path value="$PROJECT_DIR$/node_modules/flatmap-stream/package.json" />
       <path value="$PROJECT_DIR$/node_modules/follow-redirects/package.json" />
       <path value="$PROJECT_DIR$/node_modules/for-in/package.json" />
@@ -350,19 +452,28 @@
       <path value="$PROJECT_DIR$/node_modules/fragment-cache/package.json" />
       <path value="$PROJECT_DIR$/node_modules/fresh/package.json" />
       <path value="$PROJECT_DIR$/node_modules/from/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/gcp-metadata/package.json" />
       <path value="$PROJECT_DIR$/node_modules/get-stream/package.json" />
       <path value="$PROJECT_DIR$/node_modules/get-value/package.json" />
       <path value="$PROJECT_DIR$/node_modules/glob-parent/node_modules/is-glob/package.json" />
       <path value="$PROJECT_DIR$/node_modules/glob-parent/package.json" />
       <path value="$PROJECT_DIR$/node_modules/global-dirs/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/google-auth-library/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/google-p12-pem/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/googleapis-common/package.json" />
       <path value="$PROJECT_DIR$/node_modules/got/package.json" />
       <path value="$PROJECT_DIR$/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/gtoken/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/gtoken/package.json" />
       <path value="$PROJECT_DIR$/node_modules/has-flag/package.json" />
       <path value="$PROJECT_DIR$/node_modules/has-value/package.json" />
       <path value="$PROJECT_DIR$/node_modules/has-values/node_modules/kind-of/package.json" />
       <path value="$PROJECT_DIR$/node_modules/has-values/package.json" />
       <path value="$PROJECT_DIR$/node_modules/he/package.json" />
       <path value="$PROJECT_DIR$/node_modules/http-errors/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/https-proxy-agent/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/https-proxy-agent/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/https-proxy-agent/package.json" />
       <path value="$PROJECT_DIR$/node_modules/iconv-lite/package.json" />
       <path value="$PROJECT_DIR$/node_modules/ignore-by-default/package.json" />
       <path value="$PROJECT_DIR$/node_modules/import-lazy/package.json" />
@@ -397,6 +508,8 @@
       <path value="$PROJECT_DIR$/node_modules/isarray/package.json" />
       <path value="$PROJECT_DIR$/node_modules/isexe/package.json" />
       <path value="$PROJECT_DIR$/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/jwa/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/jws/package.json" />
       <path value="$PROJECT_DIR$/node_modules/kareem/package.json" />
       <path value="$PROJECT_DIR$/node_modules/kind-of/package.json" />
       <path value="$PROJECT_DIR$/node_modules/latest-version/package.json" />
@@ -406,6 +519,7 @@
       <path value="$PROJECT_DIR$/node_modules/libqp/package.json" />
       <path value="$PROJECT_DIR$/node_modules/lodash.debounce/package.json" />
       <path value="$PROJECT_DIR$/node_modules/lodash.get/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/lodash.isstring/package.json" />
       <path value="$PROJECT_DIR$/node_modules/lodash/package.json" />
       <path value="$PROJECT_DIR$/node_modules/lowercase-keys/package.json" />
       <path value="$PROJECT_DIR$/node_modules/lru-cache/package.json" />
@@ -428,6 +542,8 @@
       <path value="$PROJECT_DIR$/node_modules/minimist/package.json" />
       <path value="$PROJECT_DIR$/node_modules/mixin-deep/node_modules/is-extendable/package.json" />
       <path value="$PROJECT_DIR$/node_modules/mixin-deep/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mkdirp/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mkdirp/package.json" />
       <path value="$PROJECT_DIR$/node_modules/mongodb-core/node_modules/bson/browser_build/package.json" />
       <path value="$PROJECT_DIR$/node_modules/mongodb-core/node_modules/bson/package.json" />
       <path value="$PROJECT_DIR$/node_modules/mongodb-core/node_modules/safe-buffer/package.json" />
@@ -450,8 +566,10 @@
       <path value="$PROJECT_DIR$/node_modules/mquery/node_modules/safe-buffer/package.json" />
       <path value="$PROJECT_DIR$/node_modules/mquery/package.json" />
       <path value="$PROJECT_DIR$/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/multer/package.json" />
       <path value="$PROJECT_DIR$/node_modules/nanomatch/package.json" />
       <path value="$PROJECT_DIR$/node_modules/negotiator/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/node-forge/package.json" />
       <path value="$PROJECT_DIR$/node_modules/nodemailer-fetch/package.json" />
       <path value="$PROJECT_DIR$/node_modules/nodemailer-shared/package.json" />
       <path value="$PROJECT_DIR$/node_modules/nodemailer/package.json" />
@@ -507,6 +625,7 @@
       <path value="$PROJECT_DIR$/node_modules/resolve-from/package.json" />
       <path value="$PROJECT_DIR$/node_modules/resolve-url/package.json" />
       <path value="$PROJECT_DIR$/node_modules/ret/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/retry-axios/package.json" />
       <path value="$PROJECT_DIR$/node_modules/safe-buffer/package.json" />
       <path value="$PROJECT_DIR$/node_modules/safe-regex/package.json" />
       <path value="$PROJECT_DIR$/node_modules/safer-buffer/package.json" />
@@ -545,6 +664,7 @@
       <path value="$PROJECT_DIR$/node_modules/static-extend/package.json" />
       <path value="$PROJECT_DIR$/node_modules/statuses/package.json" />
       <path value="$PROJECT_DIR$/node_modules/stream-combiner/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/streamsearch/package.json" />
       <path value="$PROJECT_DIR$/node_modules/string-width/package.json" />
       <path value="$PROJECT_DIR$/node_modules/string_decoder/package.json" />
       <path value="$PROJECT_DIR$/node_modules/strip-ansi/package.json" />
@@ -559,7 +679,9 @@
       <path value="$PROJECT_DIR$/node_modules/to-regex-range/package.json" />
       <path value="$PROJECT_DIR$/node_modules/to-regex/package.json" />
       <path value="$PROJECT_DIR$/node_modules/touch/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/traverse-chain/package.json" />
       <path value="$PROJECT_DIR$/node_modules/type-is/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/typedarray/package.json" />
       <path value="$PROJECT_DIR$/node_modules/undefsafe/package.json" />
       <path value="$PROJECT_DIR$/node_modules/underscore/package.json" />
       <path value="$PROJECT_DIR$/node_modules/union-value/node_modules/extend-shallow/package.json" />
@@ -576,9 +698,11 @@
       <path value="$PROJECT_DIR$/node_modules/update-notifier/package.json" />
       <path value="$PROJECT_DIR$/node_modules/urix/package.json" />
       <path value="$PROJECT_DIR$/node_modules/url-parse-lax/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/url-template/package.json" />
       <path value="$PROJECT_DIR$/node_modules/use/package.json" />
       <path value="$PROJECT_DIR$/node_modules/util-deprecate/package.json" />
       <path value="$PROJECT_DIR$/node_modules/utils-merge/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/uuid/package.json" />
       <path value="$PROJECT_DIR$/node_modules/vary/package.json" />
       <path value="$PROJECT_DIR$/node_modules/which/package.json" />
       <path value="$PROJECT_DIR$/node_modules/widest-line/package.json" />
@@ -587,7 +711,9 @@
       <path value="$PROJECT_DIR$/node_modules/xml2js/package.json" />
       <path value="$PROJECT_DIR$/node_modules/xmlbuilder/package.json" />
       <path value="$PROJECT_DIR$/node_modules/xoauth2/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/xtend/package.json" />
       <path value="$PROJECT_DIR$/node_modules/yallist/package.json" />
+      <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -602,6 +728,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -612,13 +739,12 @@
             <path>
               <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
               <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -627,6 +753,14 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/engineering/engineering" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fadhlaoui\workspace\BackEnd\public" />
+      <recent name="C:\Users\fadhlaoui\workspace\BackEnd\routes" />
+      <recent name="C:\Users\fadhlaoui\workspace\BackEnd\models" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -668,18 +802,32 @@
       <workItem from="1539690478095" duration="3239000" />
       <workItem from="1539719360328" duration="134000" />
       <workItem from="1539816113517" duration="997000" />
+      <workItem from="1539986649950" duration="698000" />
+      <workItem from="1540055935779" duration="7867000" />
+      <workItem from="1540128316030" duration="113000" />
+      <workItem from="1540228760171" duration="17379000" />
+      <workItem from="1540285704058" duration="1145000" />
+      <workItem from="1540296986523" duration="5614000" />
+      <workItem from="1540405311502" duration="17881000" />
+      <workItem from="1540459456365" duration="3508000" />
+      <workItem from="1540568968696" duration="6565000" />
+      <workItem from="1541081171619" duration="3376000" />
+      <workItem from="1541603821617" duration="983000" />
+      <workItem from="1541700508762" duration="21746000" />
+      <workItem from="1541743788255" duration="2149000" />
+      <workItem from="1543002421386" duration="1937000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44255000" />
+    <option name="totallyTimeSpent" value="135216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23660715" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49832216" visible="true" weight="0.22991072" />
+      <window_info id="Structure" order="1" sideWeight="0.5016779" side_tool="true" weight="0.22991072" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -690,8 +838,9 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3104027" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -730,17 +879,173 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/DB.js">
+    <entry file="file://$USER_HOME$/Angular Project/test/Doctory/Doctory/src/app/patient/patient.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Angular Project/test/Doctory/Doctory/src/app/patient/patient.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Angular Project/test/Doctory/BackEnd/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/find/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Angular Project/test/Doctory/BackEnd/routes/uploadimage.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Angular Project/test/Doctory/Doctory/src/app/patient/patient.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="21" column="88" selection-start-line="21" selection-start-column="79" selection-end-line="21" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/bcrypt/node_modules/gauge/error.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="16920" column="12" selection-start-line="16920" selection-start-column="12" selection-end-line="16920" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/nodemailer/lib/nodemailer.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/javascript/nodejs/library/node-globals-stub.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/inv.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/User.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/TokenInvit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/user.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/uploadimage.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="59" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/guest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Wedding.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Token.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/task.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/guest.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        <state relative-caret-position="116">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.cert">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.rnd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.key">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-207" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -751,24 +1056,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/User.js">
+    <entry file="file://$PROJECT_DIR$/config/DB.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Wedding.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/user.route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="91" column="39" selection-start-line="91" selection-start-column="39" selection-end-line="91" selection-end-column="39" />
+        <state relative-caret-position="92">
+          <caret line="4" column="46" lean-forward="true" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
         </state>
       </provider>
     </entry>

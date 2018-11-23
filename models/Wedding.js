@@ -5,11 +5,16 @@ User = require('./User');
 
 
 let Wedding = new Schema({
-    place: String,
+    placeName: String,
+    placeAddress: String,
+    placeType: String,
+    placeLat: String,
+    placeLng: String,
     date: Date,
     emailPartner: String,
     partner1:  { type: Schema.Types.ObjectId, ref: 'User' },
     partner2:  { type: Schema.Types.ObjectId, ref: 'User' },
+    album: [String],
 },{
     collection: 'weddings'
 });

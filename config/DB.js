@@ -1,5 +1,6 @@
 // DB.js
 
 module.exports = {
-    DB: 'mongodb://localhost:27017/weddingDB'
+    //DB: 'mongodb://mortadha:271105431A@ds031948.mlab.com:31948/weddingdb'
+    DB: 'mongodb://localhost:27017/weddingDB',
 };

@@ -15,9 +15,9 @@ const uploadImageRoutes = require('./routes/uploadimage.route');
 var publicDir = require('path').join(__dirname,'/public');
 
 mongoose.Promise = global.Promise;
-mongoose.connect(config.DB).then(
-    () => {console.log('Database is connected') },
-    err => { console.log('Can not connect to the database'+ err)}
+mongoose.connect(process.env.MONGODB_URI || config.DB,{ useNewUrlParser: true }).then(
+    () => {console.log('Database is connected') },/** ready to use. The `mongoose.connect()` promise resolves to undefined. */
+    err => { console.log('Can not connect to the database'+ err)}/** handle initial connection error */
 );
 
 const app = express();

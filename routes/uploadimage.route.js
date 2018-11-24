@@ -5,7 +5,7 @@ const app = express();
 const multer = require('multer');
 
 const uploadImageRoutes = express.Router();
-const DIR = '../public/assets';
+const DIR = path.join(__dirname, 'public', 'assets');
 let storage = multer.diskStorage({
     destination: (req, file, cb) => {
         cb(null, DIR);

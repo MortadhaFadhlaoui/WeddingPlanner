@@ -49,13 +49,12 @@ uploadImageRoutes.route('/uploadMulti').post(upload.any(), function (req, res) {
 
 
 // Upload multiple images
-uploadImageRoutes.route('/uploadMulti').post(function (req, res) {
+uploadImageRoutes.route('/uploadMulti').post(upload.any(),function (req, res) {
     if (!req.files) {
         console.log("No files received");
         return res.status(400).json({"message":"No file received"});
 
     } else {
-
         console.log('file received');
         return res.status(200).json({"names":"file received","DIR":DIR});
     }

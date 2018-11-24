@@ -48,14 +48,14 @@
         <counts>
           <entry key="Procfile" value="6" />
           <entry key="gitignore" value="13" />
-          <entry key="js" value="4720" />
+          <entry key="js" value="4724" />
           <entry key="json" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="5" />
-          <entry key="JavaScript" value="4720" />
+          <entry key="JavaScript" value="4724" />
           <entry key="PLAIN_TEXT" value="19" />
         </counts>
       </usages-collector>
@@ -67,7 +67,7 @@
           <entry key="gitignore" value="2" />
           <entry key="html" value="1" />
           <entry key="jpg" value="1" />
-          <entry key="js" value="50" />
+          <entry key="js" value="51" />
           <entry key="json" value="1" />
           <entry key="key" value="1" />
           <entry key="md" value="1" />
@@ -80,7 +80,7 @@
           <entry key="HTML" value="1" />
           <entry key="Image" value="1" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="50" />
+          <entry key="JavaScript" value="51" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="TypeScript" value="4" />
         </counts>
@@ -103,20 +103,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/uploadimage.route.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="29" />
+            <state relative-caret-position="161">
+              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/user.route.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+            <state relative-caret-position="184">
+              <caret line="8" column="43" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -228,8 +228,8 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/config/DB.js" />
-        <option value="$PROJECT_DIR$/routes/uploadimage.route.js" />
         <option value="$PROJECT_DIR$/routes/user.route.js" />
+        <option value="$PROJECT_DIR$/routes/uploadimage.route.js" />
       </list>
     </option>
   </component>
@@ -352,12 +352,12 @@
       <workItem from="1541700508762" duration="21746000" />
       <workItem from="1541743788255" duration="2149000" />
       <workItem from="1543002421386" duration="5463000" />
-      <workItem from="1543072059737" duration="1872000" />
+      <workItem from="1543072059737" duration="2026000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140614000" />
+    <option name="totallyTimeSpent" value="140768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -463,13 +463,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/nodemailer/lib/nodemailer.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/javascript/nodejs/library/node-globals-stub.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/Task.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -597,17 +590,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/uploadimage.route.js">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/javascript/nodejs/library/node-globals-stub.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="29" />
+        <state relative-caret-position="184">
+          <caret line="303" column="4" selection-start-line="303" selection-start-column="4" selection-end-line="303" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/user.route.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        <state relative-caret-position="184">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/uploadimage.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
         </state>
       </provider>
     </entry>

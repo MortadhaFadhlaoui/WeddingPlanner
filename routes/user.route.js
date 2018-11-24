@@ -6,7 +6,7 @@ const userRoutes = express.Router();
 const nodemailer = require('nodemailer');
 const fs = require('fs');
 const { promisify } = require('util');
-const DIR = path.join(__dirname, 'public', 'assets');
+const DIR = path.join(__dirname, '../public', 'assets');
 
 const unlink = promisify(fs.unlink);
 // nodemailer

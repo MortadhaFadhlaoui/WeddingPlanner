@@ -31,7 +31,7 @@ uploadImageRoutes.route('/upload').post(upload.single('file'), function (req, re
 });
 
 
-// Upload multiple images
+/*// Upload multiple images
 uploadImageRoutes.route('/uploadMulti').post(upload.any(), function (req, res) {
     if (!req.files) {
         console.log("No files received");
@@ -44,6 +44,20 @@ uploadImageRoutes.route('/uploadMulti').post(upload.any(), function (req, res) {
         }
         console.log('file received');
         return res.status(200).json(names);
+    }
+});*/
+
+
+// Upload multiple images
+uploadImageRoutes.route('/uploadMulti').post(function (req, res) {
+    if (!req.files) {
+        console.log("No files received");
+        return res.status(400).json({"message":"No file received"});
+
+    } else {
+
+        console.log('file received');
+        return res.status(200).json({"names":"file received","DIR":DIR});
     }
 });
 

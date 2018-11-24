@@ -5,7 +5,7 @@ const app = express();
 const multer = require('multer');
 
 const uploadImageRoutes = express.Router();
-const DIR = '../BackEnd/public/assets';
+const DIR = '../WeddingPlanner/public/assets';
 let storage = multer.diskStorage({
     destination: (req, file, cb) => {
         cb(null, DIR);

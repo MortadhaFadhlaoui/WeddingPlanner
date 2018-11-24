@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5492e9b9-cc52-4eba-9f94-caeec67e7986" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/routes/uploadimage.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/uploadimage.route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/user.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/user.route.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -105,8 +106,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/uploadimage.route.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+            <state relative-caret-position="115">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -114,8 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/user.route.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="392" column="26" selection-start-line="392" selection-start-column="23" selection-end-line="392" selection-end-column="26" />
+            <state relative-caret-position="161">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -167,7 +168,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>patientService</find>
       <find>URL</find>
       <find>Wedding.findOne</find>
       <find>muli</find>
@@ -196,11 +196,15 @@
       <find>user/</find>
       <find>updateWedding</find>
       <find>ensureIndex</find>
+      <find>BackEnd</find>
       <find>DIR</find>
     </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\fadhlaoui\workspace\BackEnd</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -218,13 +222,13 @@
         <option value="$PROJECT_DIR$/models/guest.js" />
         <option value="$PROJECT_DIR$/models/TokenInvit.js" />
         <option value="$PROJECT_DIR$/routes/guest.route.js" />
-        <option value="$PROJECT_DIR$/routes/user.route.js" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/config/DB.js" />
+        <option value="$PROJECT_DIR$/routes/user.route.js" />
         <option value="$PROJECT_DIR$/routes/uploadimage.route.js" />
       </list>
     </option>
@@ -348,12 +352,12 @@
       <workItem from="1541700508762" duration="21746000" />
       <workItem from="1541743788255" duration="2149000" />
       <workItem from="1543002421386" duration="5463000" />
-      <workItem from="1543072059737" duration="935000" />
+      <workItem from="1543072059737" duration="1131000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139677000" />
+    <option name="totallyTimeSpent" value="139873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -584,15 +588,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/user.route.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="392" column="26" selection-start-line="392" selection-start-column="23" selection-end-line="392" selection-end-column="26" />
+        <state relative-caret-position="161">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/uploadimage.route.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+        <state relative-caret-position="115">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>

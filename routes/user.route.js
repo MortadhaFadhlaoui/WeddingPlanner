@@ -5,7 +5,7 @@ const userRoutes = express.Router();
 const nodemailer = require('nodemailer');
 const fs = require('fs');
 const { promisify } = require('util');
-const DIR = '../BackEnd/public/assets';
+const DIR = '../WeddingPlanner/public/assets';
 
 const unlink = promisify(fs.unlink);
 // nodemailer
